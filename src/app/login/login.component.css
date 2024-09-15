@@ -1,0 +1,102 @@
+.login-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+  }
+  
+  .left-section {
+    flex: 1;
+    background: url('/images/back1.webp') no-repeat center center;
+    background-size: cover;
+    position: relative;
+  }
+  
+
+  
+  .name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .role {
+    font-size: 14px;
+  }
+  
+  .right-section {
+    flex: 1;
+    background: #fff;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 40px;
+    height: 40px;
+
+  }
+  
+  h3 {
+    font-size: 16px;
+    margin: 20px 0;
+    color: #a8a1a1;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  input::placeholder{
+    color: #a8a1a1;
+  }
+
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3DCBB1;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+  
+  .social-buttons {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+  }
+  
+  .social-button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+  }
+  
+  .fb {
+    background-color: #4267B2;
+    color: white;
+  }
+  
+  .apple {
+    background-color: #000;
+    color: white;
+  }
+  
+  .google {
+    background-color: #FFFFFF;
+    color: #1B1B1B;
+    border: 1px solid #1B1B1B1A
+  }
